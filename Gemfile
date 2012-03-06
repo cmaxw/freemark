@@ -8,7 +8,7 @@ gem 'rails', '3.1.3'
 gem 'sqlite3'
 
 gem 'sandra-rails'
-gem 'sandra', "0.1.5"
+gem 'sandra', "0.1.6"
 gem 'thrift_client', '~> 0.8.0'
 gem 'cassandra', :git => "git://github.com/twitter/cassandra.git"
 
