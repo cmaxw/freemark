@@ -7,10 +7,11 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 
-gem 'sandra-rails'
-gem 'sandra', "0.1.6"
+gem 'sandra-rails', :path => "../sandra-rails"
+gem 'sandra', :path => "../Sandra"
 gem 'thrift_client', '~> 0.8.0'
 gem 'cassandra', :git => "git://github.com/twitter/cassandra.git"
+gem 'bcrypt-ruby'
 
 # Gems used only for assets and not required
 # in production environments by default.

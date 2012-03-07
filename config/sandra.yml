@@ -3,6 +3,6 @@ development:
   port: 9160
   keyspace: Freemark
   column_families:
-    Users:
-    Links:
-    Visits:
+    User:
+    Link:
+    Visit:

@@ -40,6 +40,7 @@ GEM
     activesupport (3.1.3)
       multi_json (~> 1.0)
     arel (2.2.3)
+    bcrypt-ruby (3.0.1)
     builder (3.0.0)
     coffee-rails (3.1.1)
       coffee-script (>= 2.2.0)
@@ -95,7 +96,7 @@ GEM
       activemodel
       cassandra
       thrift_client (~> 0.8.0)
-    sandra-rails (0.0.5)
+    sandra-rails (0.0.7)
       actionpack (~> 3.1.0)
       railties (~> 3.1.0)
       sandra
@@ -128,12 +129,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt-ruby
   cassandra!
   coffee-rails (~> 3.1.1)
   jquery-rails
   rails (= 3.1.3)
   sandra (= 0.1.6)
-  sandra-rails
+  sandra-rails (= 0.0.7)
   sass-rails (~> 3.1.5)
   sqlite3
   thrift_client (~> 0.8.0)
