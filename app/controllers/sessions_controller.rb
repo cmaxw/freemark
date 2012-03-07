@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
     end
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html { redirect_to dashboard_path }
       format.json { render json: @session }
     end
   end
